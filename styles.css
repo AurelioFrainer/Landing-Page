@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "kanitblack";
+    src: url(fontes/Kanit/Kanit-Medium.ttf);
+}
+@font-face {
+    font-family:"kanitlight" ;
+    src: url(fontes/Kanit/Kanit-Light.ttf);
+}
+
+body {
+    background: linear-gradient(90deg, #020024 0%, #060630 35%, #0a0c7e 100%);
+    color: white;
+    font-family: "kanitblack";
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 49px;
+    align-items: center;
+}
+
+header img{
+    width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+
+
+    margin-right: 60px;
+    list-style-type: none;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+li:hover{
+    background-color: #464663;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin-top: 80px;
+}
+
+#services {
+    display: flex;
+    justify-content: center;
+
+}
+
+#services div {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    margin: 35px;
+    margin-top: 200px;
+    
+
+}
+
+#home img {
+    width: 663px;
+    height: 548px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+}
+
+#texthome {
+    margin-top: 200px;
+    margin-left: 81px;
+}
+
+#imghome {
+    margin-right: 73px;
+}
+
+#titlecolor {
+    color: #9BA4ED;
+}
+
+#texttitle {
+    font-size: 48px;
+    line-height: 50px;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+    background: transparent;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+p {
+    font-family: "kanitlight";
+    font-size: 1.0rem;
+}
+
+.card {
+    background: rgba(62, 60, 60, 0.90);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+footer{
+    padding-block: 30px;
+    text-align: center;
+}
